@@ -1,0 +1,103 @@
+[Song]
+{
+  Name = "Example Song"
+  Artist = "Example Artist"
+  Charter = "Dolly"
+  Album = "Example Album"
+  Year = ", 2025"
+  Offset = 0
+  Resolution = 192
+  Player2 = bass
+  Difficulty = 0
+  PreviewStart = 0
+  PreviewEnd = 0
+  Genre = "rock"
+  MediaType = "cd"
+  MusicStream = "song.wav"
+}
+[SyncTrack]
+{
+  0 = TS 4
+  0 = B 120000
+}
+[Events]
+{
+  0 = E "section Intro"
+  768 = E "section Verse"
+  1536 = E "section Chorus"
+  2304 = E "section Bridge"
+  3072 = E "section Outro"
+  3840 = E "end"
+}
+[ExpertSingle]
+{
+  768 = N 0 0
+  864 = N 1 0
+  960 = N 2 0
+  1056 = N 3 0
+  1152 = N 4 0
+  1248 = N 2 0
+  1344 = N 1 0
+  1440 = N 0 192
+  1536 = N 0 0
+  1632 = N 1 0
+  1728 = N 2 0
+  1824 = N 3 0
+  1920 = N 4 0
+  2016 = N 2 0
+  2112 = N 1 0
+  2208 = N 0 384
+  2304 = S 2 576
+  2304 = N 0 0
+  2400 = N 1 0
+  2496 = N 2 0
+  2592 = N 1 0
+  2688 = N 0 0
+  2784 = N 1 0
+  2880 = N 2 192
+  3072 = N 4 0
+  3168 = N 3 0
+  3264 = N 2 0
+  3360 = N 1 0
+  3456 = N 0 768
+}
+[HardSingle]
+{
+  768 = N 0 0
+  960 = N 2 0
+  1152 = N 4 0
+  1344 = N 1 0
+  1536 = N 0 0
+  1728 = N 2 0
+  1920 = N 4 0
+  2112 = N 1 0
+  2304 = S 2 576
+  2304 = N 0 0
+  2496 = N 2 0
+  2688 = N 0 0
+  2880 = N 2 192
+  3072 = N 4 0
+  3264 = N 2 0
+  3456 = N 0 768
+}
+[MediumSingle]
+{
+  768 = N 0 0
+  1152 = N 2 0
+  1536 = N 0 0
+  1920 = N 2 0
+  2304 = S 2 576
+  2304 = N 0 0
+  2688 = N 1 0
+  3072 = N 2 0
+  3456 = N 0 768
+}
+[EasySingle]
+{
+  768 = N 0 0
+  1536 = N 1 0
+  2304 = S 2 576
+  2304 = N 0 0
+  3072 = N 2 0
+  3456 = N 0 768
+}

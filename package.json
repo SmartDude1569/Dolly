@@ -11,10 +11,13 @@
   "author": "Aidan Walker",
   "license": "GPL-3.0-only",
   "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.28",
     "@types/node": "^24.9.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "commander": "^14.0.2"
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "fluent-ffmpeg": "^2.1.3"
   }
 }
